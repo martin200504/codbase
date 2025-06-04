@@ -10934,7 +10934,7 @@ header.masthead {
   padding-right: 5px;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg"); /*imagen de fondo, el banner, ... aja*/
+  background-image: url("../assets/img/header-bg.jpg"); /*imagen de fondo, el banner, ... aja*/ /*imagen banner*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11317,8 +11317,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 #imgabt{
   border: 5px solid #244984;
   border-radius: 1.5em;
-  outline: 0.5em solid rgb(217, 141, 0);
-  box-shadow: 15px 10px 10px rgb(109, 109, 109);
+  outline: 0.5em solid rgb(217, 141, 0); /*color borde mapa*/
+  box-shadow: 15px 10px 10px rgb(109, 109, 109); /*color sombra del borde del mapa*/
 }
 
 .center{
@@ -11363,7 +11363,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 100px;
 }
 
-.bordercolor{   /*letra del banner*/
+.bordercolor{   /*letra del banner*/ /*estilo frase banner*/
   color: white;
   font-size: 50px;
   text-shadow: -1px 1px 0 #000,
@@ -11410,11 +11410,11 @@ section#conocenos{
   left: 1px;
   box-shadow: none;
   filter: brightness(150%);
-  color: #ababab ;
+  color: #ababab ;  /*color letra botones presionados*/
 }
 
 .page-section#about, .page-section#conocenos{
-  background-color:  #222222;
+  background-color:  #222222; /*color background contactanos y conocenos*/
 }
 
 .black{
